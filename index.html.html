@@ -1,42 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Radha Krishna</title>
+  <title>Radha ❤️ Krishna</title>
+
   <style>
     body {
-      background-color: black;
-      color: white;
       text-align: center;
-      font-family: Arial;
+      font-family: Arial, sans-serif;
+      animation: bgchange 10s infinite;
     }
+
+    @keyframes bgchange {
+      0%   { background-color: white; }
+      20%  { background-color: lightblue; }
+      40%  { background-color: lightcoral; }
+      60%  { background-color: lavender; }
+      80%  { background-color: lightcyan; }
+      100% { background-color: white; }
+    }
+
+    h2 {
+      color: darkblue;
+    }
+
     img {
-      width: 90%;
-      max-width: 350px;
-      margin-top: 25px;
-      border-radius: 12px;
-    }
-    p {
-      font-size: 18px;
-      margin-top: 8px;
+      width: 300px;
+      margin-top: 20px;
+      border-radius: 15px;
     }
   </style>
 </head>
+
 <body>
 
-<h2>Radha ❤ Krishna</h2>
+  <h2>Radha ❤️ Krishna</h2>
 
-<audio controls autoplay loop>
-  <source src="music.mp3" type="audio/mpeg">
-</audio>
+  <audio controls autoplay loop>
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
 
-<img src="img1.jpg">
-<p>Radha Krishna</p>
+  <br><br>
 
-<img src="img2.jpg">
-<p>Divine Love</p>
-
-<img src="img3.jpg">
-<p>Forever Together</p>
+  <img src="img1.jpg">
+  <br>
+  <img src="img2.jpg">
 
 </body>
 </html>
